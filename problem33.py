@@ -1,3 +1,5 @@
+from fractions import *
+
 
 if __name__ == '__main__':
     
@@ -12,15 +14,15 @@ if __name__ == '__main__':
                     if f >= 1:
                         continue
                     if l == n and f == k/m:
-                        frac.append(rational(k, m))
+                        frac.append(Fraction(k, m))
                         print(num, denom)
                     if l == m and f == k/n:
-                        frac.append(rational(k, n))
+                        frac.append(Fraction(k, n))
                         print(num, denom)
                     if k == n and f == l/m:
-                        frac.append(rational(l, m))
+                        frac.append(Fraction(l, m))
                         print(num, denom)
                     if k == m and f == l/n:
-                        frac.append(rational(l, n))
+                        frac.append(Fraction(l, n))
                         print(num, denom)
     print(frac)

@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 15 16:38:14 2016
-
-@author: poullot
-"""
-
-
 from math import gcd
+
 
 def diviseurs(n):
     div = set([1, n])

@@ -1,3 +1,5 @@
+from arithm import primesGenerator
+
 
 def log10_int(n):
     lg = 0

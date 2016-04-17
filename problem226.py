@@ -1,4 +1,3 @@
-
 def I(x, calls=100):
     if calls == 0:
         return 0
@@ -10,3 +9,5 @@ def I(x, calls=100):
         return I(2*x, calls-1)/4 + x*x/2
     else:
         return -I(-x)
+
+blanc = lambda x, dx=1e-6: (I(x + dx) - I(x - dx))/(2 *dx)

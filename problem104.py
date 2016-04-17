@@ -1,5 +1,6 @@
 from decimal import *
 
+
 def is_pand(n, to=9):
     d = list(str(n))
     if len(d) != to:

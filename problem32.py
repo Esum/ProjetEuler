@@ -1,5 +1,3 @@
-
-
 if __name__ == '__main__':
     pand = []
     for i1 in range(1, 10):

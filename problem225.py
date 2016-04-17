@@ -1,5 +1,3 @@
-
-
 def tribonacci_mod(n, m):
     if 1 <= n <= 3:
         return 1

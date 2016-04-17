@@ -1,11 +1,20 @@
-def decomp(n: int):
-    res = []
+def decomp(n: int, dic=False):
+    if dic:
+        res = {}
+    else:
+        res = []
     d = 2
     while n != 1:
         if n%d:
             d += 1
         else:
-            res.append(d)
+            if dic:
+                if d in res:
+                    res[d] += 1
+                else:
+                    res[d] = 1
+            else:                
+                res.append(d)
             n //= d
     return res
 

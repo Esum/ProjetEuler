@@ -1,3 +1,4 @@
+from arithm import primesGenerator, isPrime
 
 
 if __name__ == '__main__':
@@ -9,7 +10,7 @@ if __name__ == '__main__':
             e = [0]*len(d)
             for c in range(len(d)):
                 e[c] = d[(c + k) % len(d)]
-            if not is_prime(sum(e[c]*10**c for c in range(len(d)))):
+            if not isPrime(sum(e[c]*10**c for c in range(len(d)))):
                 is_circ = False
                 break
         if is_circ:

@@ -1,5 +1,3 @@
-
-
 def log10_int(n):
     lg = 0
     power = 1

@@ -1,6 +1,3 @@
-__author__ = 'Benjamin'
-
-
 if __name__ == '__main__':
     res = set()
     for a in range(2, 101):

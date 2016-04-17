@@ -1,5 +1,3 @@
-from itertools import product
-
 def isqrt(n):
     """
     integer sqrt of n

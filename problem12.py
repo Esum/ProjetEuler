@@ -1,12 +1,11 @@
-from itertools import combinations
-from copy import copy
+import arithm
 
 
 def triang(n):
     return (n * (n + 1))//2
 
 def num_div(n):
-    fact = factorize(n)
+    fact = arithm.decomp(n, True)
     res = 1
     for val in fact.values():
         res *= val + 1

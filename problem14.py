@@ -1,5 +1,3 @@
-__author__ = 'Benjamin'
-
 import sys
 sys.setrecursionlimit(1000000)
 

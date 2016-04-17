@@ -1,6 +1,3 @@
-__author__ = 'Benjamin'
-
-
 def permutations(E: list):
     if len(E) == 1:
         return [E]

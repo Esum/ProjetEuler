@@ -1,5 +1,3 @@
-__author__ = 'Benjamin'
-
 if __name__ == '__main__':
     for a in range(1001):
         for b in range(1001-a):

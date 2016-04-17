@@ -1,5 +1,3 @@
-
-
 if __name__ == '__main__':
     dpal = []
     for k in range(1000000):

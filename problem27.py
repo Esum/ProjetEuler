@@ -1,4 +1,4 @@
-__author__ = 'Benjamin'
+import arithm
 
 
 if __name__ == '__main__':
@@ -8,7 +8,7 @@ if __name__ == '__main__':
     for a in range(-1000,1000):
         for b in range(-1000,1000):
             n = 0
-            while is_prime(n*n + a*n + b):
+            while arithm.isPrime(n*n + a*n + b):
                 n += 1
             if n>primes:
                 max_a = a

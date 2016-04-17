@@ -1,5 +1,3 @@
-__author__ = 'Benjamin'
-
 import arithm
 
 if __name__ == '__main__':

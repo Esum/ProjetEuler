@@ -1,4 +1,3 @@
-
 def isqrt(n):
     """
     integer sqrt of n

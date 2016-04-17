@@ -1,4 +1,3 @@
-
 def sum_digits(n):
     return sum(int(k) for k in str(n))
 

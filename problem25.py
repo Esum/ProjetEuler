@@ -1,6 +1,3 @@
-__author__ = 'Benjamin'
-
-
 def fibonacci(n:int):
     a = 1
     b = 1
